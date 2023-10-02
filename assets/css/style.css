@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background: #022D7C;
+    justify-content: space-between;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)), 
+                url(../img/Industrial.jpg);
+    background-size: cover;
+}
+.banner h1{
+    font-size: 55px;
+    font-weight: normal;
+}
+.banner h1 span{
+    display: block;
+    font-size: 77px; 
+    font-weight: 600;
+}
+.banner aside{
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background: #022D7C;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    margin: 7px;
+    height: 50px;
+}
