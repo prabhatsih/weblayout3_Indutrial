@@ -5,7 +5,7 @@
 }
 /* Header Section Start */
 header{
-    width: 100vw;
+    width: 100%;
     height: 50px;
     color: #fff;
     display: flex;
@@ -96,7 +96,7 @@ header{
     font-weight: normal;
 }
 .about button{
-    color: #fff;
+    color: #d9d499;
     margin-top: 10px;
     font-weight: bold;
     padding: 15px 120px;
@@ -105,3 +105,73 @@ header{
     border-radius: 4px;
 }
 /* About us section End */
+/* Service Secion Start */
+.service, .table{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image, 
+.service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 660px;
+    height: 500px;
+}
+table tr td img{
+    width: 660px;
+    height: 500px;
+}
+/* Service Secion End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 25px 100px;
+    background: #022D7C;
+}
+/* Footer Section End */
+
+/* Media Query Section Start */
+@media screen and (max-width:992px) {
+    header{
+        padding: 10px;
+    }
+    header h2{
+        font-size: 20px;
+    }
+    .banner{
+        padding: 10px;
+        /* flex-direction: column; */
+    }
+    .feature{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about{
+        padding: 20px;
+    }
+    .service{
+        padding: 10px;
+    }
+    .service .upper,
+    .service .lower{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .service .image,
+    .service .content{
+        width: auto;
+        padding-left: 0px !important;
+    }
+}
+/* Media Query Section End */
